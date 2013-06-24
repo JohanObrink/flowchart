@@ -1,0 +1,82 @@
+body {
+  padding: 50px;
+  font: 11px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.chart {
+    position: relative;
+}
+
+.node {
+    position: absolute;
+    width: 130px;
+    height: 60px;
+
+    .text {
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        width: 110px;
+        height: 60px;
+        padding: 0 10px;
+    }
+
+    &.diamond {
+        .text {
+            width: 70px;
+            padding: 0 30px;
+        }
+    }
+}
+.shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+.diamond .shape {
+    left: 31px;
+    top: -4px;
+    height: 66.7px;
+    width: 66.7px;
+    -webkit-transform: rotate(45deg) skew(-20deg, -20deg);
+}
+
+.x1 { left: 0; }
+.x2 { left: 150px; }
+.x3 { left: 300px; }
+.x4 { left: 450px; }
+.x5 { left: 600px; }
+.x6 { left: 750px; }
+.x7 { left: 900px; }
+.x8 { left: 1050px; }
+.x9 { left: 1200px; }
+.x10 { left: 1350px; }
+
+.y1 { top: 0; }
+.y2 { top: 80px; }
+.y3 { top: 160px; }
+.y4 { top: 240px; }
+.y5 { top: 320px; }
+.y6 { top: 400px; }
+.y7 { top: 480px; }
+.y8 { top: 560px; }
+.y9 { top: 640px; }
+.y10 { top: 720px; }
+.y11 { top: 800px; }
+.y12 { top: 880px; }
+.y13 { top: 960px; }
+.y14 { top: 1040px; }
+.y15 { top: 1120px; }
+
+
